@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6507143c-1d25-4c9e-973d-4331f1d5707c" name="Changes" comment="initial content">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6507143c-1d25-4c9e-973d-4331f1d5707c" name="Changes" comment="add license">
+      <change beforePath="$PROJECT_DIR$/TokyoPurple/frontendImpl/src/jvmMain/resources/com.asboy2035.TokyoPurple-Light.json" beforeDir="false" afterPath="$PROJECT_DIR$/TokyoPurple/frontendImpl/src/jvmMain/resources/com.asboy2035.TokyoPurple-Light.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,58 +32,59 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JSON File" />
+        <option value="Apache-2.0" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "asboy2035"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;asboy2035&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/asboy2035/TokyoPurple-Fleet.git",
-    "accountId": "3a099e4d-a960-4419-accc-5f28f60b6a13"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/asboy2035/TokyoPurple-Fleet.git&quot;,
+    &quot;accountId&quot;: &quot;3a099e4d-a960-4419-accc-5f28f60b6a13&quot;
   }
-}]]></component>
+}</component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="0yzRHpdg" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2zgmVvHZTvblA8mPnarXcoE0Z4M" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build.executor": "Run",
-    "Gradle.Clean.executor": "Run",
-    "Gradle.Run Fleet.executor": "Run",
-    "Gradle.TokyoPurple-Fleet [TokyoPurple:clean].executor": "Run",
-    "Gradle.TokyoPurple-Fleet [clean].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/ash/IdeaProjects/TokyoPurple-Fleet",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "org.rust.first.attach.projects": "true",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Clean.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Run Fleet.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TokyoPurple-Fleet [TokyoPurple:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TokyoPurple-Fleet [clean].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ash/IdeaProjects/TokyoPurple-Fleet&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Language Defaults&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Gradle.Build">
+}</component>
+  <component name="RunManager" selected="Gradle.Run Fleet">
     <configuration name="Build" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -186,6 +186,7 @@
       <updated>1743535360667</updated>
       <workItem from="1743535360668" duration="84000" />
       <workItem from="1752161118277" duration="3978000" />
+      <workItem from="1752165975706" duration="3002000" />
     </task>
     <task id="LOCAL-00001" summary="initial content">
       <option name="closed" value="true" />
@@ -195,7 +196,31 @@
       <option name="project" value="LOCAL" />
       <updated>1752164278618</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add readme">
+      <option name="closed" value="true" />
+      <created>1752166298819</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752166298819</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update themes">
+      <option name="closed" value="true" />
+      <created>1752167923871</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1752167923871</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add license">
+      <option name="closed" value="true" />
+      <created>1752168087855</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1752168087855</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +228,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial content" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial content" />
+    <MESSAGE value="add readme" />
+    <MESSAGE value="update themes" />
+    <MESSAGE value="add license" />
+    <option name="LAST_COMMIT_MESSAGE" value="add license" />
   </component>
 </project>

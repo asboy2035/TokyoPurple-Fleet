@@ -2,15 +2,15 @@
   "meta": {
     "theme.name": "TokyoPurple Light",
     "theme.kind": "Light",
-    "theme.version": 2
+    "theme.version": 3
   },
   "textAttributes": {
     "editor.text.scheme": {
-      "foregroundColor": "TokyoLightFg"
+      "foregroundColor": "TokyoLightCodeFg"
     },
     "editor.text.composable": {
       "textDecoration": {
-        "color": "TokyoLightFg"
+        "color": "TokyoLightCodeFg"
       }
     },
     "editor.selection": {
@@ -35,30 +35,30 @@
       "backgroundColor": "TokyoLightDark3"
     },
     "comment": {
-      "foregroundColor": "TokyoLightComment"
+      "foregroundColor": "TokyoLightFgDark"
     },
     "comment.doc": {
-      "foregroundColor": "TokyoLightComment"
+      "foregroundColor": "TokyoLightFgDark"
     },
     "comment.doc.tag": {
       "foregroundColor": "TokyoLightCyan"
     },
     "comment.doc.value": {
-      "foregroundColor": "TokyoLightFg"
+      "foregroundColor": "TokyoLightCodeFg"
     },
     "comment.todo": {
-      "foregroundColor": "TokyoLightGreen"
+      "foregroundColor": "TokyoLightGreen2"
     },
     "link": {
-      "foregroundColor": "TokyoLightCyan"
+      "foregroundColor": "TokyoLightPurp"
     },
     "link.always.visible": {
       "textDecoration": {}
     },
     "link.hovered": {
-      "foregroundColor": "TokyoLightCyan",
+      "foregroundColor": "TokyoLightPurp",
       "textDecoration": {
-        "color": "TokyoLightCyan"
+        "color": "TokyoLightPurp"
       }
     },
     "error.hovered": {
@@ -71,10 +71,10 @@
       "foregroundColor": "TokyoLightPurp"
     },
     "metadata": {
-      "foregroundColor": "TokyoLightGreen"
+      "foregroundColor": "TokyoLightGreen1"
     },
     "number": {
-      "foregroundColor": "TokyoLightOrange"
+      "foregroundColor": "TokyoLightYellow"
     },
     "boolean": {
       "foregroundColor": "TokyoLightPurp"
@@ -86,22 +86,22 @@
       "foregroundColor": "TokyoLightGreen"
     },
     "string.escape": {
-      "foregroundColor": "TokyoLightCyan"
+      "foregroundColor": "TokyoLightPurp"
     },
     "string.escape.unicode": {
       "foregroundColor": "TokyoLightYellow"
     },
     "string.escape.alternative": {
-      "foregroundColor": "TokyoLightMagenta"
+      "foregroundColor": "TokyoLightPurple"
     },
     "string.formatItem": {
       "foregroundColor": "TokyoLightYellow"
     },
     "string.regexp": {
-      "foregroundColor": "TokyoLightCyan"
+      "foregroundColor": "TokyoLightPurp"
     },
     "identifier": {
-      "foregroundColor": "TokyoLightFg"
+      "foregroundColor": "TokyoLightCodeFg"
     },
     "identifier.this": {
       "foregroundColor": "TokyoLightPurp"
@@ -117,13 +117,13 @@
       "scrollbarMarkColor": "TokyoLightDark3"
     },
     "identifier.constant": {
-      "foregroundColor": "TokyoLightMagenta"
+      "foregroundColor": "TokyoLightPurple"
     },
     "identifier.constant.predefined": {
-      "foregroundColor": "TokyoLightCyan"
+      "foregroundColor": "TokyoLightPurp"
     },
     "identifier.variable": {
-      "foregroundColor": "TokyoLightFg"
+      "foregroundColor": "TokyoLightCodeFg"
     },
     "identifier.variable.mutable": {
       "textDecoration": {
@@ -131,13 +131,13 @@
       }
     },
     "identifier.parameter": {
-      "foregroundColor": "TokyoLightFg"
+      "foregroundColor": "TokyoLightCodeFg"
     },
     "identifier.parameter.js": {
       "foregroundColor": "TokyoLightGreen"
     },
     "identifier.function.declaration": {
-      "foregroundColor": "TokyoLightFg",
+      "foregroundColor": "TokyoLightCodeFg",
       "fontWeight": "SEMI_BOLD"
     },
     "identifier.function.declaration.js": {
@@ -158,26 +158,26 @@
       "fontStyle": "ITALIC"
     },
     "identifier.type": {
-      "foregroundColor": "TokyoLightCyan"
+      "foregroundColor": "TokyoLightPurp"
     },
     "identifier.field": {
-      "foregroundColor": "TokyoLightMagenta"
+      "foregroundColor": "TokyoLightPurple"
     },
     "identifier.field.static": {
-      "foregroundColor": "TokyoLightMagenta",
+      "foregroundColor": "TokyoLightPurple",
       "fontStyle": "ITALIC"
     },
     "identifier.interface": {
-      "foregroundColor": "TokyoLightCyan"
+      "foregroundColor": "TokyoLightPurp"
     },
     "identifier.type.class": {
-      "foregroundColor": "TokyoLightCyan"
+      "foregroundColor": "TokyoLightPurp"
     },
     "identifier.type.enum": {
-      "foregroundColor": "TokyoLightCyan"
+      "foregroundColor": "TokyoLightPurp"
     },
     "identifier.type.struct": {
-      "foregroundColor": "TokyoLightCyan"
+      "foregroundColor": "TokyoLightPurp"
     },
     "identifier.type.valueType": {
       "foregroundColor": "TokyoLightFgDark"
@@ -189,52 +189,52 @@
       "foregroundColor": "TokyoLightFgDark"
     },
     "identifier.other": {
-      "foregroundColor": "TokyoLightCyan"
+      "foregroundColor": "TokyoLightPurp"
     },
     "attributeName.html": {
-      "foregroundColor": "TokyoLightMagenta"
+      "foregroundColor": "TokyoLightPurple"
     },
     "attributeValue.html": {
       "foregroundColor": "TokyoLightGreen1"
     },
     "entityReference.html": {
-      "foregroundColor": "TokyoLightOrange"
+      "foregroundColor": "TokyoLightYellow"
     },
     "tag.html": {
       "foregroundColor": "TokyoLightFgGutter"
     },
     "tagName.html": {
-      "foregroundColor": "TokyoLightCyan"
+      "foregroundColor": "TokyoLightPurp"
     },
     "tagName.custom.html": {
-      "foregroundColor": "TokyoLightOrange"
+      "foregroundColor": "TokyoLightYellow"
     },
     "attributeName.css": {
-      "foregroundColor": "TokyoLightMagenta"
+      "foregroundColor": "TokyoLightPurple"
     },
     "hex.css": {
       "foregroundColor": "TokyoLightYellow"
     },
     "identifier.css": {
-      "foregroundColor": "TokyoLightMagenta"
+      "foregroundColor": "TokyoLightPurple"
     },
     "identifier.function.css": {
-      "foregroundColor": "TokyoLightMagenta"
+      "foregroundColor": "TokyoLightPurple"
     },
     "identifier.variable.css": {
-      "foregroundColor": "TokyoLightCyan"
+      "foregroundColor": "TokyoLightPurp"
     },
     "interpolation.css": {
-      "foregroundColor": "TokyoLightFg"
+      "foregroundColor": "TokyoLightCodeFg"
     },
     "identifier.variable.php": {
       "foregroundColor": "TokyoLightFgDark"
     },
     "property.php": {
-      "foregroundColor": "TokyoLightMagenta"
+      "foregroundColor": "TokyoLightPurple"
     },
     "property.static.php": {
-      "foregroundColor": "TokyoLightMagenta",
+      "foregroundColor": "TokyoLightPurple",
       "fontStyle": "ITALIC"
     },
     "generic.php": {
@@ -244,10 +244,10 @@
       "foregroundColor": "TokyoLightGreen1"
     },
     "jsCodeInjection.css": {
-      "foregroundColor": "TokyoLightFg"
+      "foregroundColor": "TokyoLightCodeFg"
     },
     "key.json": {
-      "foregroundColor": "TokyoLightMagenta"
+      "foregroundColor": "TokyoLightPurple"
     },
     "keyword.css": {
       "foregroundColor": "TokyoLightGreen"
@@ -262,7 +262,7 @@
       "foregroundColor": "TokyoLightGreen"
     },
     "mixin.css": {
-      "foregroundColor": "TokyoLightMagenta"
+      "foregroundColor": "TokyoLightPurple"
     },
     "number.css": {
       "foregroundColor": "TokyoLightYellow"
@@ -271,28 +271,28 @@
       "foregroundColor": "TokyoLightYellow"
     },
     "propertyName.css": {
-      "foregroundColor": "TokyoLightCyan"
+      "foregroundColor": "TokyoLightPurp"
     },
     "propertyValue.css": {
       "foregroundColor": "TokyoLightGreen1"
     },
     "punctuation.css": {
-      "foregroundColor": "TokyoLightFg"
+      "foregroundColor": "TokyoLightCodeFg"
     },
     "selector.css": {
-      "foregroundColor": "TokyoLightMagenta"
+      "foregroundColor": "TokyoLightPurple"
     },
     "selector.id.css": {
-      "foregroundColor": "TokyoLightMagenta"
+      "foregroundColor": "TokyoLightPurple"
     },
     "selector.class.css": {
-      "foregroundColor": "TokyoLightMagenta"
+      "foregroundColor": "TokyoLightPurple"
     },
     "selector.pseudo.css": {
-      "foregroundColor": "TokyoLightMagenta"
+      "foregroundColor": "TokyoLightPurple"
     },
     "selector.tag.css": {
-      "foregroundColor": "TokyoLightMagenta"
+      "foregroundColor": "TokyoLightPurple"
     },
     "string.css": {
       "foregroundColor": "TokyoLightGreen1"
@@ -324,10 +324,10 @@
       "textDecoration": {}
     },
     "punctuation": {
-      "foregroundColor": "TokyoLightFg"
+      "foregroundColor": "TokyoLightCodeFg"
     },
     "punctuation.operator": {
-      "foregroundColor": "TokyoLightFg"
+      "foregroundColor": "TokyoLightCodeFg"
     },
     "snippet": {
       "border": {
@@ -475,28 +475,28 @@
     },
     "transparent": {},
     "comment.buildConstraint.go": {
-      "foregroundColor": "TokyoLightFg"
+      "foregroundColor": "TokyoLightCodeFg"
     },
     "identifier.methodReceiver.go": {
-      "foregroundColor": "TokyoLightFg"
+      "foregroundColor": "TokyoLightCodeFg"
     },
     "identifier.package.go": {
       "foregroundColor": "TokyoLightGreen"
     },
     "identifier.typeDeclaration.go": {
-      "foregroundColor": "TokyoLightFg"
+      "foregroundColor": "TokyoLightCodeFg"
     },
     "identifier.typeReference.go": {
-      "foregroundColor": "TokyoLightCyan"
+      "foregroundColor": "TokyoLightPurp"
     },
     "identifier.variable.shadowing.go": {
-      "foregroundColor": "TokyoLightOrange"
+      "foregroundColor": "TokyoLightYellow"
     },
     "metadata.structTag.arbitraryText.go": {
-      "foregroundColor": "TokyoLightDark5"
+      "foregroundColor": "TokyoLightFgDark"
     },
     "metadata.structTag.key.go": {
-      "foregroundColor": "TokyoLightFg"
+      "foregroundColor": "TokyoLightCodeFg"
     },
     "metadata.structTag.value.go": {
       "foregroundColor": "TokyoLightGreen1"
@@ -505,7 +505,7 @@
       "foregroundColor": "TokyoLightGreen"
     },
     "identifier.alias.yaml": {
-      "foregroundColor": "TokyoLightOrange"
+      "foregroundColor": "TokyoLightYellow"
     },
     "punctuation.operator.merge.yaml": {
       "foregroundColor": "TokyoLightYellow"
@@ -514,10 +514,10 @@
       "foregroundColor": "TokyoLightPurp"
     },
     "key.yaml": {
-      "foregroundColor": "TokyoLightCyan"
+      "foregroundColor": "TokyoLightPurp"
     },
     "value.yaml": {
-      "foregroundColor": "TokyoLightMagenta"
+      "foregroundColor": "TokyoLightPurple"
     },
     "ai.generated": {
       "backgroundColor": "TokyoLightPurp5"
@@ -558,14 +558,14 @@
     }
   },
   "colors": {
-    "text.primary": "TokyoLightFg",
-    "text.secondary": "TokyoLightFgDark",
-    "text.tertiary": "TokyoLightComment",
+    "text.primary": "TokyoLightCodeFg",
+    "text.secondary": "TokyoLightFgGutter",
+    "text.tertiary": "TokyoLightFgGutter",
     "text.positive": "TokyoLightGreen",
     "text.dangerous": "TokyoLightRed",
-    "text.disabled": "TokyoLightComment",
-    "text.bright": "TokyoLightFg",
-    "text.ai": "TokyoLightMagenta",
+    "text.disabled": "TokyoLightFgGutter",
+    "text.bright": "TokyoLightCodeFg",
+    "text.ai": "TokyoLightPurp",
 
     "background.primary": "TokyoLightBg",
     "background.secondary": "TokyoLightHoverBackground",
@@ -1156,7 +1156,7 @@
     "terminal.ansiColors.background.ansiRed": "TokyoLightRed",
     "terminal.ansiColors.background.ansiWhite": "TokyoLightDark5",
     "terminal.ansiColors.background.ansiYellow": "TokyoLightYellow",
-    "terminal.ansiColors.foreground.ansiBlack": "TokyoLightFg",
+    "terminal.ansiColors.foreground.ansiBlack": "TokyoLightCodeFg",
     "terminal.ansiColors.foreground.ansiBlue": "TokyoLightCyan",
     "terminal.ansiColors.foreground.ansiBrightBlack": "TokyoLightFgDark",
     "terminal.ansiColors.foreground.ansiBrightBlue": "TokyoLightCyan",
@@ -1164,13 +1164,13 @@
     "terminal.ansiColors.foreground.ansiBrightGreen": "TokyoLightGreen",
     "terminal.ansiColors.foreground.ansiBrightMagenta": "TokyoLightMagenta",
     "terminal.ansiColors.foreground.ansiBrightRed": "TokyoLightRed",
-    "terminal.ansiColors.foreground.ansiBrightWhite": "TokyoLightFg",
+    "terminal.ansiColors.foreground.ansiBrightWhite": "TokyoLightCodeFg",
     "terminal.ansiColors.foreground.ansiBrightYellow": "TokyoLightYellow",
     "terminal.ansiColors.foreground.ansiCyan": "TokyoLightCyan",
     "terminal.ansiColors.foreground.ansiGreen": "TokyoLightGreen",
     "terminal.ansiColors.foreground.ansiMagenta": "TokyoLightMagenta",
     "terminal.ansiColors.foreground.ansiRed": "TokyoLightRed",
-    "terminal.ansiColors.foreground.ansiWhite": "TokyoLightFgDark",
+    "terminal.ansiColors.foreground.ansiWhite": "TokyoLightCodeFg",
     "terminal.ansiColors.foreground.ansiYellow": "TokyoLightYellow",
 
     "tileButton.off.background.default": "TokyoLightFgGutter",
@@ -1208,7 +1208,7 @@
 
     "toast.background": "TokyoLightFgDark",
     "toast.border": "Transparent",
-    "toast.text": "TokyoLightBg",
+    "toast.text": "TokyoLightCodeFg",
 
     "toggleButton.off.background.default": "Transparent",
     "toggleButton.off.background.disabled": "Transparent",
@@ -1274,25 +1274,25 @@
 
     "vim.recordingTag.background": "TokyoLightRed",
     "vim.recordingTag.border": "Transparent",
-    "vim.recordingTag.text": "TokyoLightFg",
+    "vim.recordingTag.text": "TokyoLightCodeFg",
     "vim.mode.cmdLine.background": "TokyoLightYellow",
     "vim.mode.cmdLine.border": "Transparent",
-    "vim.mode.cmdLine.text": "TokyoLightFg",
+    "vim.mode.cmdLine.text": "TokyoLightCodeFg",
     "vim.mode.insert.background": "TokyoLightGreen",
     "vim.mode.insert.border": "Transparent",
-    "vim.mode.insert.text": "TokyoLightFg",
+    "vim.mode.insert.text": "TokyoLightCodeFg",
     "vim.mode.normal.background": "TokyoLightDark3",
     "vim.mode.normal.border": "Transparent",
-    "vim.mode.normal.text": "TokyoLightFg",
+    "vim.mode.normal.text": "TokyoLightCodeFg",
     "vim.mode.replace.background": "TokyoLightRed",
     "vim.mode.replace.border": "Transparent",
-    "vim.mode.replace.text": "TokyoLightFg",
+    "vim.mode.replace.text": "TokyoLightCodeFg",
     "vim.mode.select.background": "TokyoLightPurple",
     "vim.mode.select.border": "Transparent",
-    "vim.mode.select.text": "TokyoLightFg",
+    "vim.mode.select.text": "TokyoLightCodeFg",
     "vim.mode.visual.background": "TokyoLightGreen",
     "vim.mode.visual.border": "Transparent",
-    "vim.mode.visual.text": "TokyoLightFg"
+    "vim.mode.visual.text": "TokyoLightCodeFg"
   },
   "palette": {
     "TokyoLightBgHi": "#F8F0FF",
@@ -1314,11 +1314,11 @@
     "TokyoLightPurp7": "#A79BB3",
     "TokyoLightMagenta": "#D5BDED",
     "TokyoLightMagenta2": "#FF8CC1",
-    "TokyoLightPurple": "#B9A5D0",
+    "TokyoLightPurple": "#884bbd",
     "TokyoLightOrange": "#FFC9A3",
-    "TokyoLightYellow": "#FAE0B3",
-    "TokyoLightGreen": "#C9ECC3",
-    "TokyoLightGreen1": "#A8E5E5",
+    "TokyoLightYellow": "#b68b14",
+    "TokyoLightGreen": "#50c536",
+    "TokyoLightGreen1": "#086d20",
     "TokyoLightGreen2": "#8AD9E0",
     "TokyoLightTeal": "#8CE7D6",
     "TokyoLightRed": "#FFB3C7",
@@ -1352,6 +1352,7 @@
     "TokyoLightObjectsYellowDark": "#FAE0B3",
     "TokyoLightObjectsBlackText": "#5A4B6B",
     "TokyoLightTreeIconColor": "#7aa2f7",
-    "Transparent": "#FFFFFF00"
+    "Transparent": "#FFFFFF00",
+    "TokyoLightCodeFg": "#000000"
   }
 }
