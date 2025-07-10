@@ -2,6 +2,7 @@
 .gradle
 .idea
 .DS_Store
+gradle.properties
 
 # Ignore Gradle build output directory
 build

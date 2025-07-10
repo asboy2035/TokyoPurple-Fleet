@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6507143c-1d25-4c9e-973d-4331f1d5707c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TokyoPurple/frontendImpl/src/jvmMain/resources/com.asboy2035.TokyoPurple-Dark.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-theme-plugin/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/TokyoPurple/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-theme-plugin/frontendImpl/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/TokyoPurple/frontendImpl/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-theme-plugin/frontendImpl/src/jvmMain/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/TokyoPurple/frontendImpl/src/jvmMain/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-theme-plugin/frontendImpl/src/jvmMain/kotlin/fleet/sample/frontendImpl/MyThemePlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/TokyoPurple/frontendImpl/src/jvmMain/kotlin/fleet/sample/frontendImpl/MyThemePlugin.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-theme-plugin/frontendImpl/src/jvmMain/resources/your-theme-id-here.json" beforeDir="false" afterPath="$PROJECT_DIR$/TokyoPurple/frontendImpl/src/jvmMain/resources/com.asboy2035.TokyoPurple-Light.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+    <list default="true" id="6507143c-1d25-4c9e-973d-4331f1d5707c" name="Changes" comment="initial content">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +65,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Build.executor": "Run",
+    "Gradle.Clean.executor": "Run",
     "Gradle.Run Fleet.executor": "Run",
     "Gradle.TokyoPurple-Fleet [TokyoPurple:clean].executor": "Run",
     "Gradle.TokyoPurple-Fleet [clean].executor": "Run",
@@ -102,7 +96,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value="distZip" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -191,11 +185,24 @@
       <option name="presentableId" value="Default" />
       <updated>1743535360667</updated>
       <workItem from="1743535360668" duration="84000" />
-      <workItem from="1752161118277" duration="2520000" />
+      <workItem from="1752161118277" duration="3978000" />
     </task>
+    <task id="LOCAL-00001" summary="initial content">
+      <option name="closed" value="true" />
+      <created>1752164278617</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1752164278618</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial content" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial content" />
   </component>
 </project>
