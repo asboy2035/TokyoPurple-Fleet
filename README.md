@@ -1,18 +1,21 @@
-# fleet-theme-plugin-template
+# TokyoPurple-Fleet
 
-[![JetBrains official project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
-[![GitHub license](https://img.shields.io/badge/license-APACHE_2.0-blue.svg)](https://github.com/JetBrains/fleet-plugin-template/blob/main/LICENSE.md)
+**Tokyo Purple** is a set of purple-tinted, Tokyo Night–inspired themes for Fleet with soft visuals, deep contrast, and Fleet-style syntax highlighting.
+Includes light and dark mode.
 
-**JetBrains Fleet Theme Plugin Template** is a repository that provides a template to create custom themes for 
-[JetBrains Fleet][fleet:website].
+Note: this theme is currently designed primarily for HTML/CSS/JS, Vue/Nuxt, and C. While it works with other languages, the quality may vary.
 
-## Documentations
+## Features
 
-- TODO: [Theme Documentation]<!--TODO: [fleet:theme-documentation]-->
-- [Fleet Plugin SDK Documentation][fleet:sdk-documentation]
-- [Examples: Fleet Theme plugin][fleet:theme-plugin-example]
+- Deep purple-tinted UI theme
+- Fleet-inspired syntax highlighting
+- Sleek, modern look with excellent contrast
+- Designed for focus and minimal eye strain
+- Supports Fleet
 
-[fleet:website]: https://www.jetbrains.com/fleet/
-[fleet:theme-documentation]: https://guides.asboy2035.com/themes/
-[fleet:theme-plugin-example]: https://github.com/JetBrains/fleet-sdk-gradle-plugin/tree/main/examples/theme-plugin
-[fleet:sdk-documentation]: https://github.com/JetBrains/fleet-sdk-gradle-plugin
+## Credits
+
+Inspired by:
+- [Tokyo Night](https://github.com/junkfactory/tokyodark-jetbrains) (This is the original repo)
+- JetBrains Fleet**Tokyo Purple** is a set of purple-tinted, Tokyo Night–inspired themes for JetBrains IDEs with soft visuals, deep contrast, and Fleet-style syntax highlighting.
+  Includes light and dark mode.
