@@ -6,7 +6,7 @@ plugins {
 version = "0.0.1"
 
 fleetPlugin {
-     id = "com.asboy2035.TokyoPurple-Fleet"
+     id = "com.asboy2035.TokyoPurpleFleet"
 
      metadata {
          readableName = "Tokyo Purple"

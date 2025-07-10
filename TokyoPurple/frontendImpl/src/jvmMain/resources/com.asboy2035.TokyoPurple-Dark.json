@@ -2,64 +2,1363 @@
   "meta": {
     "theme.name": "TokyoPurple Dark",
     "theme.kind": "Dark",
-    "theme.version": 1
+    "theme.version": 2
   },
   "textAttributes": {
-    "editor.selection": {
-      "backgroundColor": "#502e7c"
+    "editor.text.scheme": {
+      "foregroundColor": "TokyoFg"
     },
-    "editor.selection.focused": {
-      "backgroundColor": "#502e7c"
-    },
-    "editor.indentGuide": {
-      "foregroundColor": "#565f89",
+    "editor.text.composable": {
       "textDecoration": {
-        "style": "DASHED"
+        "color": "TokyoFg"
       }
     },
-    "problem.error": {
+    "editor.selection": {
+      "backgroundColor": "TokyoSelectionBackground"
+    },
+    "editor.selection.focused": {
+      "backgroundColor": "TokyoSelectionBackground"
+    },
+    "editor.search.results": {
+      "backgroundColor": "TokyoYellowAlpha05",
+      "scrollbarMarkColor": "TokyoYellow"
+    },
+    "editor.rename.entries": {
+      "backgroundColor": "TokyoGreen"
+    },
+    "editor.rename.current": {
+      "border": {
+        "color": "TokyoPurp"
+      }
+    },
+    "editor.brace.match": {
+      "backgroundColor": "TokyoDark3"
+    },
+    "comment": {
+      "foregroundColor": "TokyoComment"
+    },
+    "comment.doc": {
+      "foregroundColor": "TokyoComment"
+    },
+    "comment.doc.tag": {
+      "foregroundColor": "TokyoCyan"
+    },
+    "comment.doc.value": {
+      "foregroundColor": "TokyoFg"
+    },
+    "comment.todo": {
+      "foregroundColor": "TokyoGreen"
+    },
+    "link": {
+      "foregroundColor": "TokyoCyan"
+    },
+    "link.always.visible": {
+      "textDecoration": {}
+    },
+    "link.hovered": {
+      "foregroundColor": "TokyoCyan",
       "textDecoration": {
-        "color": "#e71363",
-        "style": "SOLID",
-        "type": "UNDERLINE",
+        "color": "TokyoCyan"
+      }
+    },
+    "error.hovered": {
+      "backgroundColor": "TokyoRed1"
+    },
+    "keyword": {
+      "foregroundColor": "TokyoPurp"
+    },
+    "keyword.typeModifier": {
+      "foregroundColor": "TokyoPurp"
+    },
+    "metadata": {
+      "foregroundColor": "TokyoGreen"
+    },
+    "number": {
+      "foregroundColor": "TokyoOrange"
+    },
+    "boolean": {
+      "foregroundColor": "TokyoPurp"
+    },
+    "string": {
+      "foregroundColor": "TokyoGreen1"
+    },
+    "string.binary": {
+      "foregroundColor": "TokyoGreen"
+    },
+    "string.escape": {
+      "foregroundColor": "TokyoCyan"
+    },
+    "string.escape.unicode": {
+      "foregroundColor": "TokyoYellow"
+    },
+    "string.escape.alternative": {
+      "foregroundColor": "TokyoMagenta"
+    },
+    "string.formatItem": {
+      "foregroundColor": "TokyoYellow"
+    },
+    "string.regexp": {
+      "foregroundColor": "TokyoCyan"
+    },
+    "identifier": {
+      "foregroundColor": "TokyoFg"
+    },
+    "identifier.this": {
+      "foregroundColor": "TokyoPurp"
+    },
+    "identifier.this.mutable": {
+      "foregroundColor": "TokyoPurp",
+      "textDecoration": {
+        "color": "TokyoPurp"
+      }
+    },
+    "identifier.underCaret": {
+      "backgroundColor": "TokyoHoverBackground",
+      "scrollbarMarkColor": "TokyoDark3"
+    },
+    "identifier.constant": {
+      "foregroundColor": "TokyoMagenta"
+    },
+    "identifier.constant.predefined": {
+      "foregroundColor": "TokyoCyan"
+    },
+    "identifier.variable": {
+      "foregroundColor": "TokyoFg"
+    },
+    "identifier.variable.mutable": {
+      "textDecoration": {
+        "color": "TokyoDark3"
+      }
+    },
+    "identifier.parameter": {
+      "foregroundColor": "TokyoFg"
+    },
+    "identifier.parameter.js": {
+      "foregroundColor": "TokyoGreen"
+    },
+    "identifier.function.declaration": {
+      "foregroundColor": "TokyoFg",
+      "fontWeight": "SEMI_BOLD"
+    },
+    "identifier.function.declaration.js": {
+      "foregroundColor": "TokyoYellow",
+      "fontWeight": "SEMI_BOLD"
+    },
+    "identifier.function.call": {
+      "foregroundColor": "TokyoYellow"
+    },
+    "identifier.function.call.package": {
+      "foregroundColor": "TokyoYellow"
+    },
+    "identifier.function.call.composable": {
+      "foregroundColor": "TokyoGreen"
+    },
+    "identifier.method.static": {
+      "foregroundColor": "TokyoYellow",
+      "fontStyle": "ITALIC"
+    },
+    "identifier.type": {
+      "foregroundColor": "TokyoCyan"
+    },
+    "identifier.field": {
+      "foregroundColor": "TokyoMagenta"
+    },
+    "identifier.field.static": {
+      "foregroundColor": "TokyoMagenta",
+      "fontStyle": "ITALIC"
+    },
+    "identifier.interface": {
+      "foregroundColor": "TokyoCyan"
+    },
+    "identifier.type.class": {
+      "foregroundColor": "TokyoCyan"
+    },
+    "identifier.type.enum": {
+      "foregroundColor": "TokyoCyan"
+    },
+    "identifier.type.struct": {
+      "foregroundColor": "TokyoCyan"
+    },
+    "identifier.type.valueType": {
+      "foregroundColor": "TokyoFgDark"
+    },
+    "identifier.typeParameter": {
+      "foregroundColor": "TokyoFgDark"
+    },
+    "identifier.namedArgument": {
+      "foregroundColor": "TokyoFgDark"
+    },
+    "identifier.other": {
+      "foregroundColor": "TokyoCyan"
+    },
+    "attributeName.html": {
+      "foregroundColor": "TokyoMagenta"
+    },
+    "attributeValue.html": {
+      "foregroundColor": "TokyoGreen1"
+    },
+    "entityReference.html": {
+      "foregroundColor": "TokyoOrange"
+    },
+    "tag.html": {
+      "foregroundColor": "TokyoFgGutter"
+    },
+    "tagName.html": {
+      "foregroundColor": "TokyoCyan"
+    },
+    "tagName.custom.html": {
+      "foregroundColor": "TokyoOrange"
+    },
+    "attributeName.css": {
+      "foregroundColor": "TokyoMagenta"
+    },
+    "hex.css": {
+      "foregroundColor": "TokyoYellow"
+    },
+    "identifier.css": {
+      "foregroundColor": "TokyoMagenta"
+    },
+    "identifier.function.css": {
+      "foregroundColor": "TokyoMagenta"
+    },
+    "identifier.variable.css": {
+      "foregroundColor": "TokyoCyan"
+    },
+    "interpolation.css": {
+      "foregroundColor": "TokyoFg"
+    },
+    "identifier.variable.php": {
+      "foregroundColor": "TokyoFgDark"
+    },
+    "property.php": {
+      "foregroundColor": "TokyoMagenta"
+    },
+    "property.static.php": {
+      "foregroundColor": "TokyoMagenta",
+      "fontStyle": "ITALIC"
+    },
+    "generic.php": {
+      "foregroundColor": "TokyoYellow"
+    },
+    "jsCodeDelimiter.css": {
+      "foregroundColor": "TokyoGreen1"
+    },
+    "jsCodeInjection.css": {
+      "foregroundColor": "TokyoFg"
+    },
+    "key.json": {
+      "foregroundColor": "TokyoMagenta"
+    },
+    "keyword.css": {
+      "foregroundColor": "TokyoGreen"
+    },
+    "keyword.extend.css": {
+      "foregroundColor": "TokyoGreen"
+    },
+    "keyword.global.css": {
+      "foregroundColor": "TokyoGreen"
+    },
+    "keyword.important.css": {
+      "foregroundColor": "TokyoGreen"
+    },
+    "mixin.css": {
+      "foregroundColor": "TokyoMagenta"
+    },
+    "number.css": {
+      "foregroundColor": "TokyoYellow"
+    },
+    "number.unit.css": {
+      "foregroundColor": "TokyoYellow"
+    },
+    "propertyName.css": {
+      "foregroundColor": "TokyoCyan"
+    },
+    "propertyValue.css": {
+      "foregroundColor": "TokyoGreen1"
+    },
+    "punctuation.css": {
+      "foregroundColor": "TokyoFg"
+    },
+    "selector.css": {
+      "foregroundColor": "TokyoMagenta"
+    },
+    "selector.id.css": {
+      "foregroundColor": "TokyoMagenta"
+    },
+    "selector.class.css": {
+      "foregroundColor": "TokyoMagenta"
+    },
+    "selector.pseudo.css": {
+      "foregroundColor": "TokyoMagenta"
+    },
+    "selector.tag.css": {
+      "foregroundColor": "TokyoMagenta"
+    },
+    "string.css": {
+      "foregroundColor": "TokyoGreen1"
+    },
+    "url.css": {
+      "foregroundColor": "TokyoFgDark",
+      "textDecoration": {
+        "color": "TokyoDark3"
+      }
+    },
+    "attribute.cpp": {
+      "foregroundColor": "TokyoPurp"
+    },
+    "markup.heading": {
+      "foregroundColor": "TokyoYellow"
+    },
+    "markup.bold": {
+      "fontWeight": "BOLD"
+    },
+    "markup.italic": {
+      "fontStyle": "ITALIC"
+    },
+    "markup.code.block": {
+      "foregroundColor": "TokyoGreen1"
+    },
+    "markup.href": {
+      "foregroundColor": "TokyoGreen1",
+      "fontStyle": "ITALIC",
+      "textDecoration": {}
+    },
+    "punctuation": {
+      "foregroundColor": "TokyoFg"
+    },
+    "punctuation.operator": {
+      "foregroundColor": "TokyoFg"
+    },
+    "snippet": {
+      "border": {
+        "color": "TokyoDark5"
+      }
+    },
+    "snippet.selected": {
+      "border": {
+        "color": "TokyoPurp"
+      }
+    },
+    "debug.currentFrame": {
+      "backgroundColor": "TokyoRedAlpha1a"
+    },
+    "diff.added": {
+      "backgroundColor": "TokyoGreenAlpha05"
+    },
+    "diff.added.word": {
+      "backgroundColor": "TokyoGreen"
+    },
+    "diff.added.withBorder": {
+      "backgroundColor": "TokyoGreen",
+      "border": {
+        "color": "TokyoGreen"
+      }
+    },
+    "diff.added.resolved": {
+      "backgroundColor": "Transparent",
+      "border": {
+        "color": "TokyoGreen"
+      }
+    },
+    "diff.added.empty": {
+      "backgroundColor": "TokyoGreen"
+    },
+    "diff.deleted": {
+      "backgroundColor": "TokyoRedAlpha1a"
+    },
+    "diff.deleted.word": {
+      "backgroundColor": "TokyoRed"
+    },
+    "diff.deleted.withBorder": {
+      "backgroundColor": "TokyoRed",
+      "border": {
+        "color": "TokyoRed"
+      }
+    },
+    "diff.deleted.resolved": {
+      "backgroundColor": "Transparent",
+      "border": {
+        "color": "TokyoRed"
+      }
+    },
+    "diff.deleted.empty": {
+      "backgroundColor": "TokyoRed"
+    },
+    "diff.modified": {
+      "backgroundColor": "TokyoBlueAlpha1a"
+    },
+    "diff.modified.word": {
+      "backgroundColor": "TokyoActionsBlue"
+    },
+    "diff.modified.withBorder": {
+      "backgroundColor": "TokyoActionsBlue",
+      "border": {
+        "color": "TokyoActionsBlue"
+      }
+    },
+    "diff.modified.resolved": {
+      "backgroundColor": "Transparent",
+      "border": {
+        "color": "TokyoActionsBlue"
+      }
+    },
+    "diff.modified.original": {
+      "backgroundColor": "TokyoHoverBackground"
+    },
+    "diff.conflict": {
+      "backgroundColor": "TokyoOrangeAlpha05"
+    },
+    "diff.conflict.withBorder": {
+      "backgroundColor": "TokyoOrange",
+      "border": {
+        "color": "TokyoOrange"
+      }
+    },
+    "diff.conflict.resolved": {
+      "backgroundColor": "Transparent",
+      "border": {
+        "color": "TokyoOrange"
+      }
+    },
+    "refactoring.modified.code": {
+      "backgroundColor": "TokyoGreen"
+    },
+    "problem.error": {
+      "scrollbarMarkColor": "TokyoRed",
+      "textDecoration": {
+        "color": "TokyoRed",
+        "thickness": 2.0
+      }
+    },
+    "problem.error.badCharacter": {
+      "scrollbarMarkColor": "TokyoRed",
+      "textDecoration": {
+        "color": "TokyoRed",
         "thickness": 2.0
       }
     },
     "problem.warning": {
+      "scrollbarMarkColor": "TokyoYellow",
       "textDecoration": {
-        "color": "#e0af68",
-        "style": "SOLID",
-        "type": "UNDERLINE",
+        "color": "TokyoYellow",
         "thickness": 2.0
+      }
+    },
+    "problem.warning.weak": {
+      "scrollbarMarkColor": "TokyoDark5",
+      "textDecoration": {
+        "color": "TokyoDark5",
+        "thickness": 2.0
+      }
+    },
+    "problem.deprecated": {
+      "textDecoration": {
+        "color": "TokyoFg",
+        "type": "LINE_THROUGH"
       }
     },
     "problem.info": {
       "textDecoration": {
-        "color": "#7dcfff",
-        "style": "SOLID",
-        "type": "UNDERLINE",
+        "color": "TokyoMagenta"
+      }
+    },
+    "problem.unknown": {},
+    "problem.unused": {
+      "foregroundColor": "TokyoFgDark"
+    },
+    "problem.warning.ai": {
+      "scrollbarMarkColor": "TokyoMagenta",
+      "textDecoration": {
+        "color": "TokyoMagenta",
         "thickness": 2.0
       }
+    },
+    "transparent": {},
+    "comment.buildConstraint.go": {
+      "foregroundColor": "TokyoFg"
+    },
+    "identifier.methodReceiver.go": {
+      "foregroundColor": "TokyoFg"
+    },
+    "identifier.package.go": {
+      "foregroundColor": "TokyoGreen"
+    },
+    "identifier.typeDeclaration.go": {
+      "foregroundColor": "TokyoFg"
+    },
+    "identifier.typeReference.go": {
+      "foregroundColor": "TokyoCyan"
+    },
+    "identifier.variable.shadowing.go": {
+      "foregroundColor": "TokyoOrange"
+    },
+    "metadata.structTag.arbitraryText.go": {
+      "foregroundColor": "TokyoDark5"
+    },
+    "metadata.structTag.key.go": {
+      "foregroundColor": "TokyoFg"
+    },
+    "metadata.structTag.value.go": {
+      "foregroundColor": "TokyoGreen1"
+    },
+    "identifier.anchor.yaml": {
+      "foregroundColor": "TokyoGreen"
+    },
+    "identifier.alias.yaml": {
+      "foregroundColor": "TokyoOrange"
+    },
+    "punctuation.operator.merge.yaml": {
+      "foregroundColor": "TokyoYellow"
+    },
+    "schema.yaml": {
+      "foregroundColor": "TokyoPurp"
+    },
+    "key.yaml": {
+      "foregroundColor": "TokyoCyan"
+    },
+    "value.yaml": {
+      "foregroundColor": "TokyoMagenta"
+    },
+    "ai.generated": {
+      "backgroundColor": "TokyoPurp5"
+    },
+    "target.match": {
+      "backgroundColor": "TokyoYellow"
+    },
+    "target.match.word": {
+      "foregroundColor": "TokyoBg",
+      "backgroundColor": "TokyoYellow"
+    },
+    "identifier.dependency.scope.amper": {
+      "foregroundColor": "TokyoOrange"
+    },
+    "identifier.dependency.annotator.amper": {
+      "foregroundColor": "TokyoCyan"
+    },
+    "identifier.dependency.add.amper": {
+      "foregroundColor": "TokyoGreen"
+    },
+    "editor.indentGuide": {
+      "foregroundColor": "TokyoFgGutter",
+      "textDecoration": {
+        "style": "DASHED"
+      }
+    },
+    "editor.indentGuide.current": {
+      "foregroundColor": "TokyoDark3",
+      "textDecoration": {
+        "style": "DASHED"
+      }
+    },
+    "editor.indentGuide.declaration": {
+      "foregroundColor": "TokyoFgGutter"
+    },
+    "editor.indentGuide.declaration.current": {
+      "foregroundColor": "TokyoDark3"
     }
   },
   "colors": {
-    "tab.background.default": "#15121c",
-    "tab.background.hovered": "#232433",
-    "tab.background.selected": "#232433",
-    "tab.indicator": "PurpleIndicator",
-    "popup.tab.background.default": "#15121c",
-    "popup.tab.background.hovered": "#232433",
-    "popup.tab.background.selected": "#232433",
-    "popup.tab.indicator": "PurpleIndicator",
-    "editor.background": "#191321",
-    "editor.caret.background": "#d2c0f5",
-    "editor.caret.border": "#d2c0f5",
-    "tool.background": "#15121c"
+    "text.primary": "TokyoFg",
+    "text.secondary": "TokyoFgDark",
+    "text.tertiary": "TokyoComment",
+    "text.positive": "TokyoGreen",
+    "text.dangerous": "TokyoRed",
+    "text.disabled": "TokyoComment",
+    "text.bright": "TokyoFg",
+    "text.ai": "TokyoMagenta",
+
+    "background.primary": "TokyoBg",
+    "background.secondary": "TokyoHoverBackground",
+    "border": "TokyoFgGutter",
+    "border.focused": "TokyoPurp",
+    "focusOutline": "TokyoPurp0",
+
+    "banner.text": "TokyoFg",
+    "banner.background.info": "TokyoBlueAlpha1a",
+    "banner.background.dangerous": "TokyoRedAlpha1a",
+    "banner.background.warning": "TokyoYellowAlpha05",
+    "banner.background.positive": "TokyoGreenAlpha05",
+    "banner.background.ai": "TokyoVioletAlpha05",
+    "banner.background.inline": "TokyoHoverBackground",
+    "banner.border.info": "TokyoActionsBlue",
+    "banner.border.dangerous": "TokyoActionsRed",
+    "banner.border.warning": "TokyoActionsYellow",
+    "banner.border.positive": "TokyoActionsGreen",
+    "banner.border.ai": "TokyoMagenta",
+    "banner.secondary.background.error": "TokyoBgHi",
+    "banner.inline.background": "TokyoHoverBackground",
+    "banner.inline.border": "Transparent",
+    "banner.inline.text": "TokyoFg",
+
+    "button.dangerous.background.default": "TokyoRed",
+    "button.dangerous.background.disabled": "Transparent",
+    "button.dangerous.background.hovered": "TokyoRed1",
+    "button.dangerous.background.pressed": "TokyoMagenta2",
+    "button.dangerous.border.default": "TokyoRed",
+    "button.dangerous.border.disabled": "TokyoFgGutter",
+    "button.dangerous.border.hovered": "TokyoRed1",
+    "button.dangerous.border.pressed": "TokyoMagenta2",
+    "button.dangerous.focusBorder": "TokyoBgHi",
+    "button.dangerous.focusOutline": "TokyoRed",
+    "button.dangerous.separator.default": "TokyoDark3",
+    "button.dangerous.separator.disabled": "TokyoFgGutter",
+    "button.dangerous.split.focusOutline": "TokyoRed",
+    "button.dangerous.text.default": "TokyoFg",
+    "button.dangerous.text.disabled": "TokyoComment",
+    "button.dangerous.text.hovered": "TokyoFg",
+    "button.dangerous.text.pressed": "TokyoFg",
+    "button.dangerous.text.hint": "TokyoFgDark",
+    "button.positive.background.default": "TokyoGreen",
+    "button.positive.background.disabled": "Transparent",
+    "button.positive.background.hovered": "TokyoGreen1",
+    "button.positive.background.pressed": "TokyoGreen2",
+    "button.positive.border.default": "TokyoGreen",
+    "button.positive.border.disabled": "TokyoFgGutter",
+    "button.positive.border.hovered": "TokyoGreen1",
+    "button.positive.border.pressed": "TokyoGreen2",
+    "button.positive.focusBorder": "TokyoBgHi",
+    "button.positive.focusOutline": "TokyoGreen",
+    "button.positive.separator.default": "TokyoDark3",
+    "button.positive.separator.disabled": "TokyoFgGutter",
+    "button.positive.split.focusOutline": "TokyoGreen",
+    "button.positive.text.default": "TokyoFg",
+    "button.positive.text.disabled": "TokyoComment",
+    "button.positive.text.hovered": "TokyoFg",
+    "button.positive.text.pressed": "TokyoFg",
+    "button.positive.text.hint": "TokyoFgDark",
+    "button.primary.background.default": "TokyoPurp",
+    "button.primary.background.disabled": "Transparent",
+    "button.primary.background.hovered": "TokyoPurp0",
+    "button.primary.background.pressed": "TokyoPurp1",
+    "button.primary.border.default": "TokyoPurp",
+    "button.primary.border.disabled": "TokyoFgGutter",
+    "button.primary.border.hovered": "TokyoPurp0",
+    "button.primary.border.pressed": "TokyoPurp1",
+    "button.primary.focusBorder": "TokyoBgHi",
+    "button.primary.focusOutline": "TokyoPurp",
+    "button.primary.separator.default": "TokyoDark3",
+    "button.primary.separator.disabled": "TokyoFgGutter",
+    "button.primary.split.focusOutline": "TokyoPurp",
+    "button.primary.text.default": "TokyoFg",
+    "button.primary.text.disabled": "TokyoComment",
+    "button.primary.text.hovered": "TokyoFg",
+    "button.primary.text.pressed": "TokyoFg",
+    "button.primary.text.hint": "TokyoFgDark",
+    "button.secondary.background.default": "TokyoHoverBackground",
+    "button.secondary.background.disabled": "Transparent",
+    "button.secondary.background.hovered": "TokyoDark3",
+    "button.secondary.background.pressed": "TokyoFgGutter",
+    "button.secondary.border.default": "Transparent",
+    "button.secondary.border.disabled": "TokyoFgGutter",
+    "button.secondary.border.hovered": "Transparent",
+    "button.secondary.border.pressed": "Transparent",
+    "button.secondary.focusBorder": "TokyoPurp",
+    "button.secondary.focusOutline": "TokyoPurp0",
+    "button.secondary.separator.default": "TokyoDark5",
+    "button.secondary.separator.disabled": "TokyoFgGutter",
+    "button.secondary.split.focusOutline": "TokyoPurp0",
+    "button.secondary.text.default": "TokyoFg",
+    "button.secondary.text.disabled": "TokyoComment",
+    "button.secondary.text.hovered": "TokyoFg",
+    "button.secondary.text.pressed": "TokyoFg",
+    "button.secondary.text.hint": "TokyoFgDark",
+    "button.warning.background.default": "TokyoYellow",
+    "button.warning.background.disabled": "Transparent",
+    "button.warning.background.hovered": "TokyoOrange",
+    "button.warning.background.pressed": "TokyoYellow",
+    "button.warning.border.default": "TokyoYellow",
+    "button.warning.border.disabled": "TokyoFgGutter",
+    "button.warning.border.hovered": "TokyoOrange",
+    "button.warning.border.pressed": "TokyoYellow",
+    "button.warning.focusBorder": "TokyoBgHi",
+    "button.warning.focusOutline": "TokyoYellow",
+    "button.warning.separator.default": "TokyoDark3",
+    "button.warning.separator.disabled": "TokyoFgGutter",
+    "button.warning.split.focusOutline": "TokyoYellow",
+    "button.warning.text.default": "TokyoFg",
+    "button.warning.text.disabled": "TokyoComment",
+    "button.warning.text.hovered": "TokyoFg",
+    "button.warning.text.pressed": "TokyoFg",
+    "button.warning.text.hint": "TokyoFgDark",
+    "button.ai.background.default": "TokyoMagenta",
+    "button.ai.background.disabled": "Transparent",
+    "button.ai.background.hovered": "TokyoMagenta",
+    "button.ai.background.pressed": "TokyoMagenta",
+    "button.ai.border.default": "TokyoMagenta",
+    "button.ai.border.disabled": "TokyoFgGutter",
+    "button.ai.border.hovered": "TokyoMagenta",
+    "button.ai.border.pressed": "TokyoMagenta",
+    "button.ai.focusBorder": "TokyoBgHi",
+    "button.ai.focusOutline": "TokyoMagenta",
+    "button.ai.separator.default": "TokyoDark3",
+    "button.ai.separator.disabled": "TokyoFgGutter",
+    "button.ai.split.focusOutline": "TokyoMagenta",
+    "button.ai.text.default": "TokyoFg",
+    "button.ai.text.disabled": "TokyoComment",
+    "button.ai.text.hovered": "TokyoFg",
+    "button.ai.text.pressed": "TokyoFg",
+    "button.ai.text.hint": "TokyoFgDark",
+
+    "chat.message.user.background.default": "TokyoHoverBackground",
+    "chat.message.user.background.hovered": "TokyoDark3",
+    "chat.message.user.background.edited": "Transparent",
+    "chat.message.user.border.default": "Transparent",
+    "chat.message.user.border.hovered": "TokyoDark5",
+    "chat.message.user.border.edited": "TokyoMagenta",
+    "chat.message.ai.background.default": "Transparent",
+    "chat.message.ai.background.hovered": "TokyoBgHi",
+    "chat.message.ai.border.default": "Transparent",
+    "chat.message.ai.border.hovered": "Transparent",
+
+    "checkbox.icon.default": "TokyoFg",
+    "checkbox.icon.disabled": "TokyoComment",
+    "checkbox.text.default": "TokyoFg",
+    "checkbox.text.disabled": "TokyoComment",
+    "checkbox.off.background.default": "TokyoBgHi",
+    "checkbox.off.background.disabled": "Transparent",
+    "checkbox.off.background.hovered": "TokyoBgHi",
+    "checkbox.off.border.default": "TokyoComment",
+    "checkbox.off.border.disabled": "TokyoDark3",
+    "checkbox.off.border.hovered": "TokyoFgDark",
+    "checkbox.off.focusBorder": "TokyoPurp",
+    "checkbox.off.focusOutline": "TokyoPurp0",
+    "checkbox.on.background.default": "TokyoPurp",
+    "checkbox.on.background.disabled": "TokyoFgGutter",
+    "checkbox.on.background.hovered": "TokyoPurp0",
+    "checkbox.on.border.default": "Transparent",
+    "checkbox.on.border.disabled": "TokyoDark5",
+    "checkbox.on.border.hovered": "Transparent",
+    "checkbox.on.focusBorder": "TokyoBgHi",
+    "checkbox.on.focusOutline": "TokyoPurp",
+
+    "combobox.arrowButton.background.default": "TokyoHoverBackground",
+    "combobox.arrowButton.background.disabled": "Transparent",
+    "combobox.background.default": "Transparent",
+    "combobox.background.disabled": "TokyoFgGutter",
+    "combobox.background.hovered": "Transparent",
+    "combobox.background.error": "Transparent",
+    "combobox.border.default": "TokyoDark5",
+    "combobox.border.disabled": "TokyoFgGutter",
+    "combobox.border.hovered": "TokyoFgDark",
+    "combobox.border.error": "TokyoRed",
+    "combobox.focusBorder.default": "TokyoPurp",
+    "combobox.focusBorder.error": "TokyoRed",
+    "combobox.focusOutline.default": "TokyoPurp0",
+    "combobox.focusOutline.error": "TokyoRed",
+    "combobox.text.default": "TokyoFg",
+    "combobox.text.disabled": "TokyoComment",
+    "combobox.text.hovered": "TokyoFg",
+    "combobox.text.error": "TokyoFg",
+
+    "completion.match.background": "Transparent",
+    "completion.match.text": "TokyoCyan",
+
+    "diff.preview.background": "TokyoHoverBackground",
+    "diff.preview.border": "TokyoFgGutter",
+
+    "dragAndDrop.background": "TokyoBlueAlpha1a",
+    "dragAndDrop.border.default": "TokyoActionsBlue",
+    "dragAndDrop.border.highlight": "TokyoPurp",
+
+    "dropdown.background.default": "TokyoHoverBackground",
+    "dropdown.background.disabled": "Transparent",
+    "dropdown.background.hovered": "TokyoHoverBackground",
+    "dropdown.background.error": "TokyoHoverBackground",
+    "dropdown.border.default": "TokyoDark5",
+    "dropdown.border.disabled": "TokyoDark3",
+    "dropdown.border.hovered": "TokyoFgDark",
+    "dropdown.border.error": "TokyoRed",
+    "dropdown.focusBorder.default": "TokyoPurp",
+    "dropdown.focusBorder.error": "TokyoRed",
+    "dropdown.focusOutline.default": "TokyoPurp0",
+    "dropdown.focusOutline.error": "TokyoRed",
+    "dropdown.text.default": "TokyoFg",
+    "dropdown.text.disabled": "TokyoComment",
+    "dropdown.text.hovered": "TokyoFg",
+    "dropdown.text.error": "TokyoFg",
+
+    "editor.caret.background": "TokyoFg",
+    "editor.caret.border": "TokyoFg",
+    "editor.currentLine.background.default": "TokyoBgHi",
+    "editor.currentLine.background.focused": "TokyoBlueAlpha1a",
+    "editor.currentLine.scrollbarMark": "TokyoFg",
+    "editor.foldedMark.background": "TokyoFgGutter",
+    "editor.foldedMark.text": "TokyoDark5",
+    "editor.foldIndicator.background.hovered": "TokyoHoverBackground",
+    "editor.foldIndicator.icon.default": "TokyoFgDark",
+    "editor.foldIndicator.icon.hovered": "TokyoFgDark",
+    "editor.gitDiff.background.added": "TokyoGreen",
+    "editor.gitDiff.background.blame": "TokyoYellow",
+    "editor.gitDiff.background.conflict": "TokyoYellow",
+    "editor.gitDiff.background.deleted": "TokyoRed",
+    "editor.gitDiff.background.modified": "TokyoPurp",
+    "editor.gitDiff.text.added": "TokyoGreen",
+    "editor.gitDiff.text.conflict": "TokyoYellow",
+    "editor.gitDiff.text.deleted": "TokyoRed",
+    "editor.gitDiff.text.modified": "TokyoPurp",
+    "editor.interline.background": "TokyoHoverBackground",
+    "editor.interline.text.default": "TokyoComment",
+    "editor.interline.text.hovered": "TokyoCyan",
+    "editor.interline.separator": "TokyoDark3",
+    "editor.interline.match.background": "TokyoOrangeAlpha05",
+    "editor.interline.match.text": "TokyoFg",
+    "editor.interline.match.background.secondary": "TokyoYellow",
+    "editor.interline.match.text.secondary": "TokyoBg",
+    "editor.interline.preview.background": "TokyoBgHi",
+    "editor.interline.preview.border": "Transparent",
+    "editor.lineNumber.current": "TokyoFg",
+    "editor.lineNumber.default": "TokyoFgDark",
+    "editor.renamePostline.background": "TokyoBlueAlpha1a",
+    "editor.renamePostline.border": "TokyoPurp",
+    "editor.renamePostline.description.text": "TokyoFg",
+    "editor.renamePostline.usages.text": "TokyoDark5",
+    "editor.selectableFoldedMark.background.default": "Transparent",
+    "editor.selectableFoldedMark.background.focused": "TokyoBlueAlpha1a",
+    "editor.selectableFoldedMark.border.default": "TokyoDark5",
+    "editor.selectableFoldedMark.border.focused": "TokyoPurp",
+    "editor.selectableFoldedMark.text.default": "TokyoDark5",
+    "editor.selectableFoldedMark.text.focused": "TokyoDark5",
+    "editor.text": "TokyoFg",
+    "editor.whitespaceIndicator": "TokyoDark3",
+
+    "ghostButton.off.background.default": "Transparent",
+    "ghostButton.off.background.disabled": "Transparent",
+    "ghostButton.off.background.hovered": "TokyoHoverBackground",
+    "ghostButton.off.background.pressed": "TokyoDark3",
+    "ghostButton.off.border.default": "Transparent",
+    "ghostButton.off.border.disabled": "Transparent",
+    "ghostButton.off.border.hovered": "Transparent",
+    "ghostButton.off.border.pressed": "Transparent",
+    "ghostButton.off.focusBorder": "TokyoPurp",
+    "ghostButton.off.focusOutline": "Transparent",
+    "ghostButton.off.text.default": "TokyoFg",
+    "ghostButton.off.text.disabled": "TokyoComment",
+    "ghostButton.off.text.hovered": "TokyoFg",
+    "ghostButton.off.text.pressed": "TokyoFg",
+    "ghostButton.on.background.default": "TokyoBlueAlpha1a",
+    "ghostButton.on.background.disabled": "TokyoFgGutter",
+    "ghostButton.on.background.hovered": "TokyoBlueAlpha1a",
+    "ghostButton.on.background.pressed": "TokyoBlueAlpha1a",
+    "ghostButton.on.border.default": "Transparent",
+    "ghostButton.on.border.disabled": "Transparent",
+    "ghostButton.on.border.hovered": "Transparent",
+    "ghostButton.on.border.pressed": "Transparent",
+    "ghostButton.on.focusBorder": "TokyoCyan",
+    "ghostButton.on.focusOutline": "Transparent",
+    "ghostButton.on.text.default": "TokyoCyan",
+    "ghostButton.on.text.disabled": "TokyoComment",
+    "ghostButton.on.text.hovered": "TokyoCyan",
+    "ghostButton.on.text.pressed": "TokyoCyan",
+
+    "gitBranchTag.local.background": "Transparent",
+    "gitBranchTag.local.border": "TokyoCyan",
+    "gitBranchTag.local.text": "TokyoCyan",
+    "gitBranchTag.remote.background": "Transparent",
+    "gitBranchTag.remote.border": "TokyoMagenta",
+    "gitBranchTag.remote.text": "TokyoMagenta",
+
+    "icon.primary": "TokyoFg",
+    "icon.secondary": "TokyoFgDark",
+    "icon.background.accent": "TokyoPurp",
+    "icon.background.blue": "TokyoActionsBlue",
+    "icon.background.green": "TokyoActionsGreen",
+    "icon.background.yellow": "TokyoActionsYellow",
+    "icon.background.red": "TokyoActionsRed",
+    "icon.background.cyan": "TokyoCyan",
+    "icon.background.violet": "TokyoMagenta",
+
+    "inputField.background.default": "Transparent",
+    "inputField.background.hovered": "Transparent",
+    "inputField.background.disabled": "TokyoFgGutter",
+    "inputField.background.error": "Transparent",
+    "inputField.border.default": "TokyoFgGutter",
+    "inputField.border.hovered": "TokyoDark3",
+    "inputField.border.disabled": "TokyoFgGutter",
+    "inputField.border.error": "TokyoRed",
+    "inputField.caret.default": "TokyoFg",
+    "inputField.caret.error": "TokyoFg",
+    "inputField.focusBorder.default": "TokyoPurp",
+    "inputField.focusBorder.error": "TokyoRed",
+    "inputField.focusBorder.positive": "TokyoGreen",
+    "inputField.focusOutline.default": "TokyoPurp0",
+    "inputField.focusOutline.error": "TokyoRed",
+    "inputField.focusOutline.positive": "TokyoGreen",
+    "inputField.hint.default": "TokyoDark5",
+    "inputField.hint.hovered": "TokyoDark5",
+    "inputField.hint.disabled": "TokyoComment",
+    "inputField.hint.error": "TokyoDark5",
+    "inputField.selectionBackground.default": "TokyoSelectionBackground",
+    "inputField.selectionBackground.error": "TokyoSelectionBackground",
+    "inputField.text.default": "TokyoFg",
+    "inputField.text.hovered": "TokyoFg",
+    "inputField.text.disabled": "TokyoComment",
+    "inputField.text.error": "TokyoFg",
+    "inputField.ai.focusBorder.default": "TokyoMagenta",
+    "inputField.ai.focusOutline.default": "TokyoMagenta",
+    "inputField.ai.background.default": "TokyoBg",
+    "inputField.ai.border.default": "TokyoBg",
+
+    "island.background": "TokyoBgHi",
+
+    "layout.error": "TokyoRed",
+
+    "link.focusOutline": "TokyoPurp",
+    "link.text.default": "TokyoCyan",
+    "link.text.disabled": "TokyoComment",
+    "link.text.visited": "TokyoMagenta",
+    "link.underline": "TokyoCyan",
+    "link.ai.focusOutline": "TokyoMagenta",
+    "link.ai.text.default": "TokyoMagenta",
+    "link.ai.text.disabled": "TokyoComment",
+    "link.ai.underline": "TokyoMagenta",
+
+    "listItem.background.default": "Transparent",
+    "listItem.background.focused": "TokyoSelectionBackground",
+    "listItem.background.hovered": "TokyoHoverBackground",
+    "listItem.background.selected": "TokyoSelectionBackground",
+    "listItem.focusOutline.dragAndDrop": "TokyoPurp",
+    "listItem.border.default": "Transparent",
+    "listItem.border.focused": "Transparent",
+    "listItem.border.hovered": "Transparent",
+    "listItem.border.selected": "Transparent",
+    "listItem.focusBorder": "TokyoPurp",
+    "listItem.text.default": "TokyoFg",
+    "listItem.text.focused": "TokyoFg",
+    "listItem.text.hovered": "TokyoFg",
+    "listItem.text.secondary": "TokyoFgDark",
+    "listItem.text.selected": "TokyoFg",
+
+    "smartMode.background.enabled": "TokyoPurp",
+    "smartMode.background.error": "TokyoRed",
+    "smartMode.border.loading": "TokyoPurp0",
+
+    "scrollToBottom.gradient1.default": "TokyoVioletAlpha05",
+    "scrollToBottom.gradient1.hovered": "TokyoVioletAlpha05",
+    "scrollToBottom.gradient2.default": "TokyoVioletAlpha05",
+    "scrollToBottom.gradient2.hovered": "TokyoVioletAlpha05",
+
+    "notification.background.default": "TokyoHoverBackground",
+    "notification.background.unread": "TokyoBgHi",
+    "notification.text.primary": "TokyoFg",
+    "notification.text.secondary": "TokyoFgDark",
+    "notification.separator": "TokyoDark5",
+    "notification.moreButton.background.default": "Transparent",
+    "notification.moreButton.background.hovered": "TokyoBgHi",
+    "notification.moreButton.background.pressed": "TokyoHoverBackground",
+    "notification.moreButton.border.default": "TokyoFgGutter",
+    "notification.moreButton.border.hovered": "TokyoFgGutter",
+    "notification.moreButton.border.pressed": "TokyoFgGutter",
+    "notification.moreButton.text.default": "TokyoFg",
+    "notification.moreButton.text.hovered": "TokyoFg",
+    "notification.moreButton.text.pressed": "TokyoFg",
+
+    "parameterInfo.match.text": "TokyoCyan",
+
+    "pillButton.background.default": "TokyoHoverBackground",
+    "pillButton.background.disabled": "TokyoHoverBackground",
+    "pillButton.background.hovered": "TokyoDark3",
+    "pillButton.background.pressed": "TokyoDark5",
+    "pillButton.border.default": "TokyoFgGutter",
+    "pillButton.border.disabled": "TokyoFgGutter",
+    "pillButton.border.hovered": "TokyoFgGutter",
+    "pillButton.border.pressed": "TokyoFgGutter",
+    "pillButton.focusBorder": "TokyoPurp",
+    "pillButton.focusOutline": "TokyoPurp0",
+    "pillButton.text.default": "TokyoDark5",
+    "pillButton.text.disabled": "TokyoComment",
+    "pillButton.text.hovered": "TokyoDark5",
+    "pillButton.text.pressed": "TokyoDark5",
+
+    "popup.background": "TokyoHoverBackground",
+    "popup.border": "TokyoFgGutter",
+    "popup.text": "TokyoFg",
+    "popup.separator": "TokyoBgHi",
+    "popup.footer.background": "TokyoDark3",
+    "popup.footer.text": "TokyoFgDark",
+    "popup.closeIcon.default": "TokyoDark3",
+    "popup.closeIcon.hovered": "TokyoFgDark",
+    "popup.closeIcon.pressed": "TokyoFg",
+    "popup.editor.background": "TokyoBgHi",
+    "popup.editor.border": "Transparent",
+    "popup.goto.background": "TokyoHoverBackground",
+
+    "problemsWidget.tag.error.background.default": "TokyoRed",
+    "problemsWidget.tag.error.background.hovered": "TokyoRed1",
+    "problemsWidget.tag.error.background.pressed": "TokyoMagenta2",
+    "problemsWidget.tag.error.text.default": "TokyoFg",
+    "problemsWidget.tag.error.text.hovered": "TokyoFg",
+    "problemsWidget.tag.error.text.pressed": "TokyoFg",
+    "problemsWidget.tag.warning.background.default": "TokyoYellow",
+    "problemsWidget.tag.warning.background.hovered": "TokyoOrange",
+    "problemsWidget.tag.warning.background.pressed": "TokyoYellow",
+    "problemsWidget.tag.warning.text.default": "TokyoFg",
+    "problemsWidget.tag.warning.text.hovered": "TokyoFg",
+    "problemsWidget.tag.warning.text.pressed": "TokyoFg",
+    "problemsWidget.tag.weakWarning.background.default": "TokyoDark5",
+    "problemsWidget.tag.weakWarning.background.hovered": "TokyoDark3",
+    "problemsWidget.tag.weakWarning.background.pressed": "TokyoHoverBackground",
+    "problemsWidget.tag.weakWarning.text.default": "TokyoFg",
+    "problemsWidget.tag.weakWarning.text.hovered": "TokyoFg",
+    "problemsWidget.tag.weakWarning.text.pressed": "TokyoFg",
+    "problemsWidget.tag.aiWarning.background.default": "TokyoMagenta",
+    "problemsWidget.tag.aiWarning.background.hovered": "TokyoMagenta",
+    "problemsWidget.tag.aiWarning.background.pressed": "TokyoMagenta",
+    "problemsWidget.tag.aiWarning.text.default": "TokyoFg",
+    "problemsWidget.tag.aiWarning.text.hovered": "TokyoFg",
+    "problemsWidget.tag.aiWarning.text.pressed": "TokyoFg",
+    "problemsWidget.tag.success.background": "TokyoGreen",
+    "problemsWidget.tag.success.foreground": "TokyoGreen",
+    "problemsWidget.card.text.primary": "TokyoFg",
+    "problemsWidget.card.text.secondary": "TokyoFgDark",
+    "problemsWidget.card.expanded.error.border": "TokyoRed1",
+    "problemsWidget.card.expanded.error.background": "TokyoRedAlpha1a",
+    "problemsWidget.card.expanded.warning.border": "TokyoOrange",
+    "problemsWidget.card.expanded.warning.background": "TokyoYellowAlpha05",
+    "problemsWidget.card.expanded.weakWarning.border": "TokyoFgDark",
+    "problemsWidget.card.expanded.weakWarning.background": "TokyoBgHi",
+    "problemsWidget.card.expanded.aiWarning.border": "TokyoMagenta",
+    "problemsWidget.card.expanded.aiWarning.background": "TokyoVioletAlpha05",
+
+    "progressSpinner.foreground": "TokyoFg",
+
+    "progressBar.determinate.background": "TokyoBlueAlpha1a",
+    "progressBar.determinate.foreground": "TokyoPurp",
+    "progressBar.indeterminate.foreground": "TokyoPurp",
+    "progressBar.indeterminate.foregroundAccent": "TokyoCyan",
+
+    "progressInline.foreground": "TokyoPurp0",
+
+    "remote.userColor.background.eight": "#6D4DFF",
+    "remote.userColor.background.five": "#3EA17F",
+    "remote.userColor.background.four": "#74A827",
+    "remote.userColor.background.nine": "#A842EB",
+    "remote.userColor.background.one": "#DB3552",
+    "remote.userColor.background.seven": "#3D5BFC",
+    "remote.userColor.background.six": "#1A85F6",
+    "remote.userColor.background.ten": "#BD40B4",
+    "remote.userColor.background.three": "#F8AB17",
+    "remote.userColor.background.two": "#E55F2E",
+
+    "remoteWorkspaceStatusLabel.background.docker": "TokyoBlueAlpha1a",
+    "remoteWorkspaceStatusLabel.background.space": "TokyoVioletAlpha05",
+    "remoteWorkspaceStatusLabel.background.ssh": "TokyoGreenAlpha05",
+    "remoteWorkspaceStatusLabel.background.wsl": "TokyoYellowAlpha05",
+    "remoteWorkspaceStatusLabel.text.docker": "TokyoFg",
+    "remoteWorkspaceStatusLabel.text.space": "TokyoFg",
+    "remoteWorkspaceStatusLabel.text.ssh": "TokyoFg",
+    "remoteWorkspaceStatusLabel.text.wsl": "TokyoFg",
+
+    "scrollbar.thumb.default": "TokyoFgGutter",
+    "scrollbar.thumb.hovered": "TokyoDark3",
+    "scrollbar.thumb.pressed": "TokyoDark5",
+    "scrollbar.track.default": "Transparent",
+    "scrollbar.track.hovered": "TokyoHoverBackground",
+    "scrollbar.track.pressed": "TokyoHoverBackground",
+
+    "search.match.background": "TokyoYellowAlpha05",
+    "search.match.text": "TokyoFg",
+    "search.counter.background": "TokyoDark3",
+
+    "separator.default": "TokyoFgGutter",
+
+    "highlight.resize.border.center.hovered": "TokyoBlueAlpha1a",
+    "highlight.resize.border.edge.hovered": "TokyoBg",
+    "highlight.resize.border.center.pressed": "TokyoPurp",
+    "highlight.resize.border.edge.pressed": "TokyoBlueAlpha1a",
+
+    "settings.modified.indicator": "TokyoYellow",
+    "settings.background.highlighted": "TokyoYellowAlpha05",
+
+    "shadow.background.large": "TokyoShadowColor",
+    "shadow.background.medium": "TokyoShadowColor",
+    "shadow.background.small": "TokyoShadowColor",
+    "shadow.border": "TokyoBg",
+
+    "shortcut.text": "TokyoFg",
+    "shortcut.background": "TokyoFgGutter",
+
+    "snippet.background.default": "TokyoHoverBackground",
+    "snippet.background.positive": "TokyoGreenAlpha05",
+    "snippet.background.dangerous": "TokyoRedAlpha1a",
+    "snippet.background.ai": "TokyoVioletAlpha05",
+    "snippet.border.default": "Transparent",
+    "snippet.border.positive": "TokyoActionsGreen",
+    "snippet.border.dangerous": "TokyoActionsRed",
+    "snippet.border.ai": "TokyoMagenta",
+    "snippet.content.background": "TokyoBgHi",
+    "snippet.content.border": "Transparent",
+    "snippetProgress.collapsed.background.default": "Transparent",
+    "snippetProgress.collapsed.background.hovered": "TokyoBgHi",
+    "snippetProgress.collapsed.background.pressed": "TokyoBg",
+    "snippetProgress.collapsed.border.default": "TokyoDark3",
+    "snippetProgress.collapsed.border.hovered": "Transparent",
+    "snippetProgress.collapsed.border.pressed": "Transparent",
+    "snippetProgress.expanded.background.default": "TokyoHoverBackground",
+    "snippetProgress.expanded.background.hovered": "TokyoBgHi",
+    "snippetProgress.expanded.background.pressed": "TokyoBg",
+    "snippetProgress.expanded.border.default": "Transparent",
+    "snippetProgress.expanded.border.hovered": "Transparent",
+    "snippetProgress.expanded.border.pressed": "Transparent",
+    "snippetProgress.focusBorder": "TokyoMagenta",
+    "snippetProgress.focusOutline": "TokyoMagenta",
+    "snippetProgress.content.background": "TokyoBgHi",
+    "snippetProgress.content.border": "Transparent",
+
+    "statusBar.text.default": "TokyoFgDark",
+    "statusBar.text.hovered": "TokyoFgDark",
+    "statusBar.text.pressed": "TokyoFgDark",
+
+    "survey.button.background.default": "TokyoFgGutter",
+    "survey.button.background.hovered": "TokyoPurp",
+    "survey.button.border.default": "Transparent",
+    "survey.button.border.hovered": "Transparent",
+    "survey.button.focusBorder": "TokyoPurp",
+    "survey.button.focusOutline": "TokyoPurp0",
+    "survey.button.text.default": "TokyoFg",
+    "survey.button.text.hovered": "TokyoFg",
+
+    "tab.background.default": "Transparent",
+    "tab.background.hovered": "TokyoBgHi",
+    "tab.background.selected": "TokyoBgHi",
+    "tab.background.selectedFocused": "TokyoBlueAlpha1a",
+    "tab.border.default": "Transparent",
+    "tab.border.hovered": "Transparent",
+    "tab.border.selected": "TokyoBgHi",
+    "tab.border.selectedFocused": "TokyoBlueAlpha1a",
+    "tab.focusOutline.dragAndDrop": "TokyoPurp",
+    "tab.text.default": "TokyoFg",
+    "tab.text.hovered": "TokyoFg",
+    "tab.text.selected": "TokyoFg",
+    "tab.text.selectedFocused": "TokyoFg",
+    "tab.closeIcon.default": "TokyoDark3",
+    "tab.closeIcon.hovered": "TokyoFgDark",
+    "tab.closeIcon.pressed": "TokyoFg",
+    "tab.hint.default": "TokyoComment",
+    "tab.hint.hovered": "TokyoDark5",
+    "tab.hint.selected": "TokyoDark5",
+    "tab.hint.selectedFocused": "TokyoDark5",
+
+    "tag.color.default.neutral.background": "TokyoDark5",
+    "tag.color.default.neutral.text": "TokyoFg",
+
+    "terminal.ansiColors.background.ansiBlack": "TokyoBgHi",
+    "terminal.ansiColors.background.ansiBlue": "#405C80",
+    "terminal.ansiColors.background.ansiBrightBlack": "#424242",
+    "terminal.ansiColors.background.ansiBrightBlue": "#314966",
+    "terminal.ansiColors.background.ansiBrightCyan": "#2F5F66",
+    "terminal.ansiColors.background.ansiBrightGreen": "#2D6654",
+    "terminal.ansiColors.background.ansiBrightMagenta": "#4E3166",
+    "terminal.ansiColors.background.ansiBrightRed": "#66333A",
+    "terminal.ansiColors.background.ansiBrightWhite": "TokyoBgHi",
+    "terminal.ansiColors.background.ansiBrightYellow": "#665234",
+    "terminal.ansiColors.background.ansiCyan": "#477880",
+    "terminal.ansiColors.background.ansiGreen": "#437A6A",
+    "terminal.ansiColors.background.ansiMagenta": "#6B5280",
+    "terminal.ansiColors.background.ansiRed": "#804A52",
+    "terminal.ansiColors.background.ansiWhite": "#898989",
+    "terminal.ansiColors.background.ansiYellow": "#80653E",
+    "terminal.ansiColors.foreground.ansiBlack": "TokyoFg",
+    "terminal.ansiColors.foreground.ansiBlue": "TokyoCyan",
+    "terminal.ansiColors.foreground.ansiBrightBlack": "#595959",
+    "terminal.ansiColors.foreground.ansiBrightBlue": "TokyoCyan",
+    "terminal.ansiColors.foreground.ansiBrightCyan": "TokyoCyan",
+    "terminal.ansiColors.foreground.ansiBrightGreen": "TokyoGreen",
+    "terminal.ansiColors.foreground.ansiBrightMagenta": "TokyoMagenta",
+    "terminal.ansiColors.foreground.ansiBrightRed": "TokyoRed",
+    "terminal.ansiColors.foreground.ansiBrightWhite": "TokyoFg",
+    "terminal.ansiColors.foreground.ansiBrightYellow": "TokyoYellow",
+    "terminal.ansiColors.foreground.ansiCyan": "TokyoCyan",
+    "terminal.ansiColors.foreground.ansiGreen": "TokyoGreen",
+    "terminal.ansiColors.foreground.ansiMagenta": "TokyoMagenta",
+    "terminal.ansiColors.foreground.ansiRed": "TokyoRed",
+    "terminal.ansiColors.foreground.ansiWhite": "TokyoFgDark",
+    "terminal.ansiColors.foreground.ansiYellow": "TokyoYellow",
+
+    "tileButton.off.background.default": "TokyoFgGutter",
+    "tileButton.off.background.disabled": "Transparent",
+    "tileButton.off.background.hovered": "TokyoHoverBackground",
+    "tileButton.off.background.pressed": "TokyoBgHi",
+    "tileButton.off.border.default": "Transparent",
+    "tileButton.off.border.disabled": "TokyoFgGutter",
+    "tileButton.off.border.hovered": "Transparent",
+    "tileButton.off.border.pressed": "Transparent",
+    "tileButton.off.focusBorder": "TokyoPurp",
+    "tileButton.off.focusOutline": "TokyoPurp0",
+    "tileButton.off.text.default": "TokyoFg",
+    "tileButton.off.text.disabled": "TokyoComment",
+    "tileButton.off.text.hovered": "TokyoFg",
+    "tileButton.off.text.pressed": "TokyoFg",
+    "tileButton.off.text.hint.default": "TokyoFgDark",
+    "tileButton.off.text.hint.disabled": "TokyoComment",
+    "tileButton.on.background.default": "TokyoBlueAlpha1a",
+    "tileButton.on.background.disabled": "Transparent",
+    "tileButton.on.background.hovered": "TokyoBlueAlpha1a",
+    "tileButton.on.background.pressed": "TokyoBlueAlpha1a",
+    "tileButton.on.border.default": "TokyoPurp",
+    "tileButton.on.border.disabled": "TokyoFgGutter",
+    "tileButton.on.border.hovered": "TokyoPurp",
+    "tileButton.on.border.pressed": "TokyoPurp",
+    "tileButton.on.focusBorder": "TokyoBgHi",
+    "tileButton.on.focusOutline": "TokyoPurp",
+    "tileButton.on.text.default": "TokyoFg",
+    "tileButton.on.text.disabled": "TokyoComment",
+    "tileButton.on.text.hovered": "TokyoFg",
+    "tileButton.on.text.pressed": "TokyoFg",
+    "tileButton.on.text.shortcut.default": "TokyoFgDark",
+    "tileButton.on.text.shortcut.disabled": "TokyoComment",
+
+    "toast.background": "TokyoFgDark",
+    "toast.border": "Transparent",
+    "toast.text": "TokyoBg",
+
+    "toggleButton.off.background.default": "Transparent",
+    "toggleButton.off.background.disabled": "Transparent",
+    "toggleButton.off.background.hovered": "TokyoBgHi",
+    "toggleButton.off.background.pressed": "TokyoHoverBackground",
+    "toggleButton.off.border.default": "TokyoFgGutter",
+    "toggleButton.off.border.disabled": "TokyoFgGutter",
+    "toggleButton.off.border.hovered": "TokyoBgHi",
+    "toggleButton.off.border.pressed": "TokyoBgHi",
+    "toggleButton.off.focusBorder": "TokyoPurp",
+    "toggleButton.off.focusOutline": "TokyoPurp0",
+    "toggleButton.off.text.default": "TokyoFg",
+    "toggleButton.off.text.disabled": "TokyoComment",
+    "toggleButton.off.text.hovered": "TokyoFg",
+    "toggleButton.off.text.pressed": "TokyoFg",
+    "toggleButton.off.text.hint": "TokyoFgDark",
+    "toggleButton.on.background.default": "TokyoPurp",
+    "toggleButton.on.background.disabled": "TokyoFgGutter",
+    "toggleButton.on.background.hovered": "TokyoPurp0",
+    "toggleButton.on.background.pressed": "TokyoPurp1",
+    "toggleButton.on.border.default": "Transparent",
+    "toggleButton.on.border.disabled": "Transparent",
+    "toggleButton.on.border.hovered": "Transparent",
+    "toggleButton.on.border.pressed": "Transparent",
+    "toggleButton.on.focusBorder": "TokyoBgHi",
+    "toggleButton.on.focusOutline": "TokyoPurp",
+    "toggleButton.on.text.default": "TokyoFg",
+    "toggleButton.on.text.disabled": "TokyoComment",
+    "toggleButton.on.text.hovered": "TokyoFg",
+    "toggleButton.on.text.pressed": "TokyoFg",
+    "toggleButton.on.text.hint": "TokyoFgDark",
+
+    "tooltip.text.primary": "TokyoFg",
+    "tooltip.text.secondary": "TokyoFgDark",
+    "tooltip.text.tertiary": "TokyoComment",
+    "tooltip.background": "TokyoDark3",
+    "tooltip.border": "Transparent",
+    "tooltip.error.text": "TokyoFg",
+    "tooltip.error.background": "TokyoRed",
+    "tooltip.error.border": "Transparent",
+
+    "tree.focusBorder": "TokyoPurp",
+    "tree.compactFolder.selector.default": "TokyoFg",
+    "tree.compactFolder.selector.focused": "TokyoFg",
+    "tree.compactFolder.separator": "TokyoFgDark",
+
+    "ai.attachment.background.default": "TokyoVioletAlpha05",
+    "ai.chat.input.background.default": "TokyoBgHi",
+    "ai.chat.input.border.default": "TokyoFgGutter",
+    "ai.chat.input.border.hovered": "TokyoDark3",
+    "ai.chat.input.border.focused": "TokyoMagenta",
+    "ai.chat.input.border.progress.default": "TokyoMagenta",
+    "ai.error.border": "TokyoRed1",
+    "ai.warning.border": "TokyoOrange",
+    "ai.error.background": "TokyoRedAlpha1a",
+    "ai.warning.background": "TokyoYellowAlpha05",
+    "ai.icon.background": "TokyoMagenta",
+    "ai.thread.background.default": "TokyoDark3",
+    "ai.thread.background.hovered": "TokyoDark5",
+    "ai.thread.agent.running.background": "TokyoGreen",
+    "ai.thread.agent.error.background": "TokyoRed",
+    "ai.thread.agent.finished.background": "TokyoMagenta",
+
+    "vim.recordingTag.background": "TokyoRed",
+    "vim.recordingTag.border": "Transparent",
+    "vim.recordingTag.text": "TokyoFg",
+    "vim.mode.cmdLine.background": "TokyoYellow",
+    "vim.mode.cmdLine.border": "Transparent",
+    "vim.mode.cmdLine.text": "TokyoFg",
+    "vim.mode.insert.background": "TokyoGreen",
+    "vim.mode.insert.border": "Transparent",
+    "vim.mode.insert.text": "TokyoFg",
+    "vim.mode.normal.background": "TokyoDark3",
+    "vim.mode.normal.border": "Transparent",
+    "vim.mode.normal.text": "TokyoFg",
+    "vim.mode.replace.background": "TokyoRed",
+    "vim.mode.replace.border": "Transparent",
+    "vim.mode.replace.text": "TokyoFg",
+    "vim.mode.select.background": "TokyoPurple",
+    "vim.mode.select.border": "Transparent",
+    "vim.mode.select.text": "TokyoFg",
+    "vim.mode.visual.background": "TokyoGreen",
+    "vim.mode.visual.border": "Transparent",
+    "vim.mode.visual.text": "TokyoFg"
   },
   "palette": {
-    "PurpleIndicator": "#c4b0fa",
-    "RedError": "#ff4879",
-    "YellowWarning": "#e0af68",
-    "BlueInfo": "#7dcfff"
+    "TokyoBgHi": "#191321",
+    "TokyoBg": "#15121c",
+    "TokyoTerminalBlack": "#15121c",
+    "TokyoFg": "#d2c0f5",
+    "TokyoFgDark": "#a9b1d6",
+    "TokyoFgGutter": "#3b4261",
+    "TokyoDark3": "#545c7e",
+    "TokyoComment": "#565f89",
+    "TokyoDark5": "#737aa2",
+    "TokyoPurp0": "#a88ce0",
+    "TokyoPurp": "#c4b0fa",
+    "TokyoCyan": "#7dcfff",
+    "TokyoPurp1": "#572ade",
+    "TokyoPurp2": "#500dd7",
+    "TokyoPurp5": "#b489ff",
+    "TokyoPurp6": "#c8b4f9",
+    "TokyoPurp7": "#453970",
+    "TokyoMagenta": "#bb9af7",
+    "TokyoMagenta2": "#ff007c",
+    "TokyoPurple": "#9d7cd8",
+    "TokyoOrange": "#ff9e64",
+    "TokyoYellow": "#e0af68",
+    "TokyoGreen": "#9ece6a",
+    "TokyoGreen1": "#73daca",
+    "TokyoGreen2": "#41a6b5",
+    "TokyoTeal": "#1abc9c",
+    "TokyoRed": "#ff4879",
+    "TokyoRed1": "#e71363",
+    "TokyoHoverBackground": "#232433",
+    "TokyoSelectionInactiveBackground": "#4b4168",
+    "TokyoSeparatorColor": "#36374F",
+    "TokyoSelectionBackground": "#502e7c",
+    "TokyoShadowColor": "#161823",
+    "TokyoActionsBlue": "#7AA2F7",
+    "TokyoActionsGreen": "#9ECE6A",
+    "TokyoActionsOrange": "#FF9E64",
+    "TokyoActionsPurple": "#9D7CD8",
+    "TokyoActionsRed": "#F7768E",
+    "TokyoActionsYellow": "#E0AF68",
+    "TokyoActionsGray": "#737aa2",
+    "TokyoActionsWhite": "#C0CAF5",
+    "TokyoActionsBlack": "#24283B",
+    "TokyoActionsGrey": "#414868",
+    "TokyoActionsGreyInlineDark": "#565F89",
+    "TokyoActionsGreyInline": "#565F89",
+    "TokyoObjectsBlue": "#7AA2F7",
+    "TokyoObjectsGreen": "#9ECE6A",
+    "TokyoObjectsGreenAndroid": "#9ECE6A",
+    "TokyoObjectsGrey": "#414868",
+    "TokyoObjectsPink": "#BB9AF7",
+    "TokyoObjectsPurple": "#9D7CD8",
+    "TokyoObjectsRed": "#F7768E",
+    "TokyoObjectsRedStatus": "#F7768E",
+    "TokyoObjectsYellow": "#E0AF68",
+    "TokyoObjectsYellowDark": "#E0AF68",
+    "TokyoObjectsBlackText": "#737aa2",
+    "TokyoTreeIconColor": "#7aa2f7",
+    "TokyoBlueAlpha1a": "#7AA2F71a",
+    "TokyoGreenAlpha05": "#9ece6e05",
+    "TokyoOrangeAlpha05": "#FF9E6405",
+    "TokyoYellowAlpha05": "#e0af6805",
+    "TokyoRoseAlpha05": "#F7768E05",
+    "TokyoVioletAlpha05": "#bb9af705",
+    "Transparent": "#FFFFFF00"
   }
 }
