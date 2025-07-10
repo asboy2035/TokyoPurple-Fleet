@@ -1,7 +1,7 @@
-rootProject.name = "my-theme-plugin-project"
+rootProject.name = "TokyoPurple-Fleet"
 
-include(":my-theme-plugin")
-include(":my-theme-plugin:frontendImpl")
+include(":TokyoPurple")
+include(":TokyoPurple:frontendImpl")
 
 pluginManagement {
     repositories {

@@ -13,6 +13,6 @@
 - [Examples: Fleet Theme plugin][fleet:theme-plugin-example]
 
 [fleet:website]: https://www.jetbrains.com/fleet/
-[fleet:theme-documentation]: TODO
+[fleet:theme-documentation]: https://guides.asboy2035.com/themes/
 [fleet:theme-plugin-example]: https://github.com/JetBrains/fleet-sdk-gradle-plugin/tree/main/examples/theme-plugin
 [fleet:sdk-documentation]: https://github.com/JetBrains/fleet-sdk-gradle-plugin

@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "theme.name": "TokyoPurple Dark",
+    "theme.kind": "Dark",
+    "theme.version": 1
+  },
+  "textAttributes": {
+    "editor.selection": {
+      "backgroundColor": "#502e7c"
+    },
+    "editor.selection.focused": {
+      "backgroundColor": "#502e7c"
+    },
+    "editor.indentGuide": {
+      "foregroundColor": "#565f89",
+      "textDecoration": {
+        "style": "DASHED"
+      }
+    },
+    "problem.error": {
+      "textDecoration": {
+        "color": "#e71363",
+        "style": "SOLID",
+        "type": "UNDERLINE",
+        "thickness": 2.0
+      }
+    },
+    "problem.warning": {
+      "textDecoration": {
+        "color": "#e0af68",
+        "style": "SOLID",
+        "type": "UNDERLINE",
+        "thickness": 2.0
+      }
+    },
+    "problem.info": {
+      "textDecoration": {
+        "color": "#7dcfff",
+        "style": "SOLID",
+        "type": "UNDERLINE",
+        "thickness": 2.0
+      }
+    }
+  },
+  "colors": {
+    "tab.background.default": "#15121c",
+    "tab.background.hovered": "#232433",
+    "tab.background.selected": "#232433",
+    "tab.indicator": "PurpleIndicator",
+    "popup.tab.background.default": "#15121c",
+    "popup.tab.background.hovered": "#232433",
+    "popup.tab.background.selected": "#232433",
+    "popup.tab.indicator": "PurpleIndicator",
+    "editor.background": "#191321",
+    "editor.caret.background": "#d2c0f5",
+    "editor.caret.border": "#d2c0f5",
+    "tool.background": "#15121c"
+  },
+  "palette": {
+    "PurpleIndicator": "#c4b0fa",
+    "RedError": "#ff4879",
+    "YellowWarning": "#e0af68",
+    "BlueInfo": "#7dcfff"
+  }
+}
